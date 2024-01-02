@@ -1,0 +1,118 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="position-relative bg-dark " data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+<div class="position-relative h-100">
+      <!-- Start Navbar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container p-5">
+          <a class="navbar-brand d-flex" href="#">
+            <img src="./imgs/logo.png">
+            <div class="d-flex flex-column ms-3">
+                <span>Weather</span>
+            <span style="font-size: 10px;">tagline goes here</span>
+            </div>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white px-4" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white px-4" href="#">Contact</a>
+              </li>
+             
+            
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+
+    <!-- End Navbar -->
+
+<!-- Start Banner -->
+<main class="banner d-flex align-items-center justify-content-center">
+    <div class="container position-absolute">
+        <form class="d-flex position-relative">
+            <input id="inputSearch"  class="form-control bg-dark p-3 shadow-none text-white border-0 rounded-pill me-2" type="search" placeholder="Find you location..." aria-label="Search">
+            <button id="btnSearch" class="btn btn-primary rounded-pill position-absolute px-5 py-2" >Find</button>
+          </form>
+    </div>
+</main>
+
+<!-- End Banner -->
+
+<!-- Start weather Section -->
+<section class="weather position-absolute top-50 start-0 w-100 mb-5">
+
+    <div class=" container  mb-5">
+        <div id="tableWeather" class="row forcast-container rounded-3">
+          
+        </div>
+    </div>
+
+</section>
+
+<!-- End Weather Section -->
+
+<!-- Start Footer -->
+
+<footer class="forcast-container footer position-absolute  p-5 w-100">
+  <div class="container position-absolute">
+   <div class="row d-flex justify-content-between">
+    <div class="col-md-8">
+      <form class="d-flex position-relative">
+        <input class="form-control bg-dark p-3 shadow-none text-white border-0 rounded-pill me-2" type="search" placeholder="Enter your email to subscribe..." aria-label="Search">
+        <button class="btn btn-primary rounded-pill position-absolute px-4 py-2" type="submit">Subscribe</button>
+      </form>
+    </div>
+    <div class="col-md-3 col-md-offset-1">
+      <div class="socialMedia d-flex justify-content-evenly">
+        <a href="#" class="text-decoration-none text-center bg-dark p-3 rounded-pill">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="#" class="text-decoration-none text-center bg-dark p-3 rounded-pill">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="text-decoration-none bg-dark p-3 text-center rounded-pill">
+        <i class="fa-brands fa-google-plus"></i>
+        </a>
+        <a href="#" class="text-decoration-none bg-dark p-3 rounded-pill text-center">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </div>
+    </div>
+   </div>
+   <p class="text-secondary">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</div>
+</footer>
+
+<!-- End Footer -->
+
+</div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

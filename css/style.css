@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #323544;
+}
+
+
+.collapse a:active .collapse a .active{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+.collapse a:hover{
+    color: #009ad8 !important;
+    border: 2px solid #009ad8;
+    border-radius: 30px;
+}
+
+
+.banner{
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+    min-height: 350px;
+
+}
+.banner .container{
+    bottom: 60%;
+}
+.banner .btn{
+    right: 2%;
+    top: 13%;
+}
+
+
+.forcast-container{
+    background-color: #323544;
+}
+.headerText{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.weather #anotherCols:nth-child(even){
+    background-color: #262936;
+}
+
+footer .btn{
+    right: 2%;
+    top: 13%;
+}
+.footer{
+    top: 100% ;
+    height: 25%;
+}
+
+.footer a:hover{
+    background-color:#009ad8 !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 992px){
+    .footer{
+        top: 183%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .footer{
+            top: 183% ;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+      }
+
+          
+@media screen and (max-width: 600px){
+    .footer{
+        top: 183%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    }
